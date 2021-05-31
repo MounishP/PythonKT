@@ -1,0 +1,165 @@
+Q: WAPP to print +2 for every number from 1 to 10.
+
+A:
+1. range(1,11) ---> 1,2,3,...,10
+2. for loop (i)
+3. res = i+2
+4. print(res)
+
+
+Q: WAPP to check whether the given input is prime or not.
+A:
+
+1. take a input
+2. prime - a number which is completely divisible(n%i==0) by 1 and n(itself)
+    1. for loop - 1 to n - range(1,n+1)
+    2. if condition - n%i==0
+
+
+
+While Loop:
+    start and end -- for loop
+    start or only the ending point means the range is not known
+
+    untill i complete 10 rounds ill not stop running
+
+    round = 0
+    while round != 10:
+        running
+        round = round + 1
+
+    completed 10 rounds
+
+Assignment:
+1. palindrome number =>  n == reverse(n) ==> isPalindrome() ==>True or False
+
+
+topics: if,for,while
+
+Programs:
+1. reverse num with negative
+
+Assignment: (with function)
+1. Perfect number
+2. Strong number
+3. Adam number
+
+Programs:
+
+1. Armstrong
+
+
+ATM:
+    1.deposit
+    3.withdrawal
+    5.balance check
+
+    Steps:
+        1. Enter the card
+        2. Enter the pin
+        3. print menu
+        4. select an option
+            1. balance:
+                1. show balance
+                2. continue or exit
+                    1. continue - go to step 2
+                    2. exit - exit note(thank you)
+
+            2. deposit: (balance + money)
+                1. Enter the money to deposit
+                2. continue or exit
+                    1. continue - go to step 2
+                    2. exit - exit note
+
+            3. withdrawal: (balance - money)
+                1. Enter the money to withdrawal
+                2. continue or exit
+                    1. continue - go to step 2
+                    2. exit - exit note
+
+Assignment:
+    1. If necessary make changes in the pin checking
+    2. pin should be entered only for 3 times
+    3. write the complete program
+
+
+Break and Continue:
+    1. Break it will stop the loop
+    2. Continue it will skip the current iteration and continue with the loop
+
+    for i in range(1,10):
+        if i == 5:
+            continue
+
+
+ATM:
+    1. limit pin length to 4
+    2. pin should be only digits
+
+isdigit() :
+    in a string it will check whether all the characters are numbers
+
+List:
+    A collection of one or more heterogeneous elements in called as List.
+    [1,"mounish",True,1.3]
+    1. ordered
+    2. duplicate values
+
+    def:
+        A collection of heterogeneous elements which are ordered and accepts duplicate
+        values is called a list.
+
+#Assignment:
+
+1. Print pattern -> input: "mounish"
+    m
+    mo
+    mou
+    moun
+    mouni
+    mounis
+    mounish
+
+2. In a list -> [1,2,3,4,5,6] print the even position values
+3. In a list -> [1,2,3,4,5,6] print the odd values
+4. In a string "Python Programming" replace O with R
+5. In a list -> [2,5,3,2,5,6]
+    if the element is even make it odd by adding 1
+    if the element is odd make it even by adding 1
+
+
+#SalaryHike
+
+    Inputs:
+        Salary
+        Current Year
+        Current Month
+        Resign Year
+        Resign Month
+        Hike = 30%
+        Period = 6 months
+
+    Output:
+        Salary at the time of resigning
+
+    Conditions:
+        every 6 months salary hike at 30% rate
+
+    Start = current year
+    stop = resign year
+    hike = 6 months --> while
+
+
+1. l = [67,4,5,3,5,7,8,5,3,21,4,5,6,776,6,67,7,7,5,5,6,7,8]
+
+######################################################################################
+                        INSERTION SORT
+
+[12,11,13,5,6]
+key = l[1]           i = 1, j = i-1 (j>=0)
+l[i] < l[j] ---> sort
+l[j] = l[i]
+
+O()
+# Time Complexity
+# Space Complexity
