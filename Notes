@@ -112,7 +112,7 @@ List:
 #Assignment:
 
 1. Print pattern -> input: "mounish"
-    m
+    self
     mo
     mou
     moun
@@ -163,3 +163,24 @@ l[j] = l[i]
 O()
 # Time Complexity
 # Space Complexity
+
+OOPs --> Object Oriented Programming System
+
+Object -> Object is a real time entity which as state and behaviour
+    State --> property (work on the issue)
+    Behaviour --> method of the property (Provide security)
+
+
+Method --> A method is nothing but a function. A function when written inside a
+    class is called a method.
+
+Class --> A class is basically a blueprint(design) of the Object.
+
+Constructor --> Constructor is a special(__init__) method. Constructor is called
+    automatically when the object is created.
+
+    Types of Constructors:
+        1. Default Cons
+        2. Parameterised Cons
+
+self --> Self is an reflection of the object --> self == obj

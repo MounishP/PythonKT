@@ -99,7 +99,7 @@ def checkPin(pin):
     global ask
     while True:
         if ask <= 3:
-            if (pin.__len__() == 4) and (pin == pins) and pin.isdigit():
+            if (pin.__len__() == 4) and (pin in pins) and pin.isdigit():
                 menu()
             else:
                 ask = ask + 1
