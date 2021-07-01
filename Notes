@@ -184,3 +184,20 @@ Constructor --> Constructor is a special(__init__) method. Constructor is called
         2. Parameterised Cons
 
 self --> Self is an reflection of the object --> self == obj
+
+Inheritance --> One class acquiring the properties of another class.
+            Parent class
+            Child class
+
+            Child class can acquire the properties of the parent class.
+
+Types of Inheritance:
+    1. Single
+    2. Multiple
+    3. Multi level
+    4. Heirechial
+    5. Hybrid --> Combination of one or more types of inheritance
+
+super() ---> super method is the parent method
+    if you want to access the parent method inside the child method then we use
+    super() method
