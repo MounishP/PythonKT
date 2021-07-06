@@ -201,3 +201,17 @@ Types of Inheritance:
 super() ---> super method is the parent method
     if you want to access the parent method inside the child method then we use
     super() method
+
+Polymorphism:
+    Poly --> many
+    morph --> forms
+    many forms
+
+Why do you need?
+    code re-usability
+    code testability
+
+Types of Polymorphism:
+    1. Operator Over-loading
+    2. Method Over-loading (Not possible)
+    3. Method Over-riding (Inheritance)
