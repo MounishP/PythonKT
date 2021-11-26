@@ -215,3 +215,22 @@ Types of Polymorphism:
     1. Operator Over-loading
     2. Method Over-loading (Not possible)
     3. Method Over-riding (Inheritance)
+
+
+Generator:
+    Generator is a advanced version of iterator which is used to replace
+    return statement with yield to iterate over a block or list or object kind of items.
+
+Exception Handling:
+    Type of Exceptions:
+        1. Compile Time Error (Syntax error) - terminated
+        2. Logical Error - exe(), answer is wrong
+        3. Run Time Error - 4/3=1.34, 7/0 --> error (User)
+
+    Finally-> Whether ur is exe() or not finally block will get exce()
+
+Multi-Threading:
+    It is used to run two or more threads in single time.
+
+    Thread:
+        A thread is a basic unit of a process.
