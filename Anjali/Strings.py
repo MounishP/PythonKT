@@ -30,9 +30,20 @@ mounis
 mounish
 """
 
-# Spilting of String
+# Spilting of Str
 
-name = "mounish"
-print(name[1:5])
-print(name[:5])
-print(name[3:])
+fruit = "apple"
+check = "pp"
+print(check in fruit)
+
+
+"""
+original = "ababa"
+check = "babaa" 
+
+ababa == babaa
+babaa == babaa --> True
+abaab
+baaba
+aabab
+"""
