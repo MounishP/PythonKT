@@ -36,7 +36,6 @@ fruit = "apple"
 check = "pp"
 print(check in fruit)
 
-
 """
 original = "ababa"
 check = "babaa" 
@@ -47,3 +46,16 @@ abaab
 baaba
 aabab
 """
+
+"""
+ababaababa
+"""
+
+org = "ababa"
+check = "babaa"
+
+org1 = org + org
+if check in org1:
+    True
+else:
+    False
