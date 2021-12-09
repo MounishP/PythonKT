@@ -1,7 +1,7 @@
 """
 List -> collection of elements, it used to store multiple data in a single variable
 Lists are ordered, all duplicates
-list are indicated bu []
+list are indicated by []
 
 Datatypes -> Non-primitive
 """
