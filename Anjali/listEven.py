@@ -9,5 +9,6 @@ for i in range(len(l)):
 
 
 """
-1. WAPP to print all the prime numbers from 1 to 1000
+1. WAPP to check if the given number is perfect number
+6 = 1+2+3 == 6
 """
