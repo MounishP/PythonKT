@@ -8,16 +8,25 @@ Strong number -> 145 - 1! + 4! + 5! = 145
 """
 
 n = int(input("Enter the number: "))
-# separate the digit - digit
+temp = n
+total = 0
 
 
-digit = 4
-fact = 1
-for i in range(1,digit+1):
-    fact = fact * i
+def fact(digit):
+    prod = 1
+    for i in range(1, digit+1):
+        prod = prod * i
 
-print(fact)
+    # print(prod)
+    return prod
 
-#sum of factorials
 
-#check
+while n != 0:
+    digit = n % 10
+    # print(digit,"this is digit")
+    total = total + fact(digit)
+    # print(total)
+    n = n // 10
+    # print(n)
+
+print(total == temp)
