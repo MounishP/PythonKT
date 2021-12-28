@@ -44,8 +44,14 @@ def close():
     print("****************************************************")
 
 
+def changePin():
+    pin = int(input("Enter new pin: "))
+    print("Pin changed successfully")
+    print(pin)
+
+
 def menu():
-    option = int(input("Enter your option(1-show balance,2-deposit,3-withdraw,4-exit): "))
+    option = int(input("Enter your option(1-show balance,2-deposit,3-withdraw,4-change pin,5-exit): "))
     if option == 1:
         showBalance()
     elif option == 2:
@@ -53,6 +59,8 @@ def menu():
     elif option == 3:
         withdraw()
     elif option == 4:
+        changePin()
+    elif option == 5:
         close()
 
 
