@@ -16,7 +16,7 @@ class MyClass:
     x = 5
 
     def myFunc(self):
-        print("function is now a method")
+        print("function is now a method",self.x)
 
 
 myClass = MyClass()
