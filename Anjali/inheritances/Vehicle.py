@@ -21,4 +21,4 @@ class Bike(Vehicle):
 
 RE = Bike("v8", 2, 15, 1, 2, "bike handle")
 RE.printVehicle()
-RE.printBike()
+RE.printBike().......................
